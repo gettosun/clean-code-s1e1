@@ -2,7 +2,7 @@
 .body {
   background-color: #f8f8f8;
   color: #333;
-  font-family: Lato, sans-serif
+  font-family: Lato, sans-serif;
 }
 .about {
   width: 500px;
@@ -20,7 +20,7 @@
 @media (max-width:768px) {
 
   .about { 
-    text-align: center
+    text-align: center;
   }
 
 }
@@ -54,7 +54,7 @@ input,button {
   font-size: 15px;
   width: 60px;
   font-family: Lato, sans-serif;
-  cursor: pointer
+  cursor: pointer;
 }
 .btn:hover {
   color: #3a3a3a;
@@ -131,7 +131,7 @@ input,button {
 
 /* Edit Task */
 .task-field {
-  display: none
+  display: none;
 }
 .new-task-field {
   display: block;
@@ -139,7 +139,7 @@ input,button {
 
 .edit-mode .task-field {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .edit-mode .label {
